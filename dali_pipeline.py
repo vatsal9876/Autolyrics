@@ -126,4 +126,4 @@ def process_dali_annotations_and_audio(anno_dir="./data/dali_raw_annotations", o
 
 if __name__ == "__main__":
     # Point this strictly to your single folder holding the .gz files
-    process_dali_annotations_and_audio(anno_dir="/home/vatsal/projects/asr/data/annot_tismir")
+    process_dali_annotations_and_audio(anno_dir="YOUR_ANNO_DIR")
