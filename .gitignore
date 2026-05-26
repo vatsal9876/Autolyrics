@@ -1,0 +1,28 @@
+# ====================================================================
+# 🎙️ Data & Hardware Weights (CRITICAL)
+# ====================================================================
+# Completely masks the entire data workspace directory
+data/
+
+# Excludes training checkpoint states and production exports
+models/
+checkpoint-*/
+*.safetensors
+*.bin
+
+# ====================================================================
+# 🐍 Python Core & Environment Safeguards
+# ====================================================================
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.sixth
+
+# Virtual Environments 
+venv/
+
+# ====================================================================
+# 💻 IDE Configurations
+# ====================================================================
+.vscode/
+.DS_Store
