@@ -1,0 +1,73 @@
+============================================================
+🔥 MODEL EVALUATION REPORT: models/whisper_lyrics_finetuned_20260626_100623/checkpoint-5
+============================================================
+
+Test Partition Size: 344 tracks
+
+BASE MODEL METRICS:
+ - Standard WER: 123.57%
+ - Normalized WER: 112.48%
+ - Normalized CER: 78.96%
+
+FINE TUNED MODEL METRICS:
+ - Standard WER: 123.57%
+ - Normalized WER: 112.48%
+ - Normalized CER: 78.96%
+
+PERFORMANCE COMPARISON (Normalized):
+ - WER Shift: -0.00%
+ - CER Shift: -0.00%
+
+
+📝 INFERENCE COMPILATIONS SAMPLES (FIRST 10):
+────────────────────────────────────────────────────────────
+
+[Sample 1]
+ Ground Truth: you would say anything
+ Base_Model_Output:  You would say anything.
+ Finetuned_Model_Output:  You would say anything.
+
+[Sample 2]
+ Ground Truth: i never would i never could again
+ Base_Model_Output:  I never would, I never could, again
+ Finetuned_Model_Output:  I never would, I never could, again
+
+[Sample 3]
+ Ground Truth: and i don't want you to think that i care
+ Base_Model_Output:  I don't want you to be good I can
+ Finetuned_Model_Output:  I don't want you to be good I can
+
+[Sample 4]
+ Ground Truth: i never would i never could again
+ Base_Model_Output:  I never heard, I never heard again
+ Finetuned_Model_Output:  I never heard, I never heard again
+
+[Sample 5]
+ Ground Truth: you would say anything
+ Base_Model_Output:  You would say anything.
+ Finetuned_Model_Output:  You would say anything.
+
+[Sample 6]
+ Ground Truth: i couldn't if i tried
+ Base_Model_Output:  I couldn't have thought that
+ Finetuned_Model_Output:  I couldn't have thought that
+
+[Sample 7]
+ Ground Truth: oh honey when you knock on my door
+ Base_Model_Output:  Oh, halloween, you're not gonna do
+ Finetuned_Model_Output:  Oh, halloween, you're not gonna do
+
+[Sample 8]
+ Ground Truth: ooh i gave you my key
+ Base_Model_Output:  Woke up in my key!
+ Finetuned_Model_Output:  Woke up in my key!
+
+[Sample 9]
+ Ground Truth: i was your clown
+ Base_Model_Output:  I was your part.
+ Finetuned_Model_Output:  I was your part.
+
+[Sample 10]
+ Ground Truth: woo hoo
+ Base_Model_Output:  you
+ Finetuned_Model_Output:  you

@@ -4,8 +4,7 @@
 # Completely masks the entire data workspace directory
 data/
 
-# Excludes training checkpoint states and production exports
-models/
+# Excludes training checkpoint states and production export
 checkpoint-*/
 *.safetensors
 *.bin
@@ -26,3 +25,15 @@ venv/
 # ====================================================================
 .vscode/
 .DS_Store
+
+demucs_debug_output/
+demucs_production_check/
+
+.temp_backend_files.txt
+
+response_1783093977744.json
+response_1783097716078.json
+
+test.ipynb
+
+backend/evaluation_results.txt

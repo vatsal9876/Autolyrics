@@ -1,0 +1,91 @@
+================================================================================
+📈 COMPARATIVE BENCHMARK LOG: BASE MODEL VS checkpoint-150
+================================================================================
+
+Total Test Sequence Tracks Evaluated: 919
+
+📊 ACCURACY ERROR METRICS MATRIX:
+-------------------------------------------------------
+│ Metric            │ Base Model     │ Fine-Tuned (checkpoint-150) 
+-------------------------------------------------------
+│ Normalized WER    │        30.77% │               31.98% 
+│ Normalized CER    │        22.64% │               23.21% 
+│ Raw Unfiltered WER│        30.77% │               46.50% 
+-------------------------------------------------------
+
+🚀 OVERALL ACCOUNTABILITY SHIFT (Normalized):
+ • Word Error Rate Reduction: -1.21%
+ • Char Error Rate Reduction: -0.57%
+
+📝 SIDE-BY-SIDE INFERENCE SAMPLES COMPARISON (FIRST 10 CHUNKS):
+────────────────────────────────────────────────────────────────────────────────
+
+[TRACK CHUNK CHANNELS 1]
+  • GROUND TRUTH REFERENCE   : Lay awake at night
+  • BASE MODEL OUT-OF-BOX    : They wake at night.
+  • FT ADAPTER (checkpoint-150 RAW)  : they wake at night
+  • FT ADAPTER (checkpoint-150 CLEAN): they wake at night
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 2]
+  • GROUND TRUTH REFERENCE   : Wondering how could I
+  • BASE MODEL OUT-OF-BOX    : Wondering how could I?
+  • FT ADAPTER (checkpoint-150 RAW)  : wondering how could i-
+  • FT ADAPTER (checkpoint-150 CLEAN): wondering how could i-
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 3]
+  • GROUND TRUTH REFERENCE   : Let it get this way
+  • BASE MODEL OUT-OF-BOX    : Let it get this way
+  • FT ADAPTER (checkpoint-150 RAW)  : let it get this way
+  • FT ADAPTER (checkpoint-150 CLEAN): let it get this way
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 4]
+  • GROUND TRUTH REFERENCE   : Through all the pain
+  • BASE MODEL OUT-OF-BOX    : Through all the pain
+  • FT ADAPTER (checkpoint-150 RAW)  : through all the pain
+  • FT ADAPTER (checkpoint-150 CLEAN): through all the pain
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 5]
+  • GROUND TRUTH REFERENCE   : I took all the blame
+  • BASE MODEL OUT-OF-BOX    : I took off the blame
+  • FT ADAPTER (checkpoint-150 RAW)  : i took off the plane-
+  • FT ADAPTER (checkpoint-150 CLEAN): i took off the plane-
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 6]
+  • GROUND TRUTH REFERENCE   : While you cursed my last name
+  • BASE MODEL OUT-OF-BOX    : Are you cursed my last name?
+  • FT ADAPTER (checkpoint-150 RAW)  : are you cursed my last name?
+  • FT ADAPTER (checkpoint-150 CLEAN): are you cursed my last name?
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 7]
+  • GROUND TRUTH REFERENCE   : I thought we could get better
+  • BASE MODEL OUT-OF-BOX    : I thought we could get better
+  • FT ADAPTER (checkpoint-150 RAW)  : i thought we could get better
+  • FT ADAPTER (checkpoint-150 CLEAN): i thought we could get better
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 8]
+  • GROUND TRUTH REFERENCE   : Stayed committed like a soldier
+  • BASE MODEL OUT-OF-BOX    : I said commit it like a soldier
+  • FT ADAPTER (checkpoint-150 RAW)  : i said commit it like a soldier
+  • FT ADAPTER (checkpoint-150 CLEAN): i said commit it like a soldier
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 9]
+  • GROUND TRUTH REFERENCE   : Believed we're okay
+  • BASE MODEL OUT-OF-BOX    : Believe we're okay
+  • FT ADAPTER (checkpoint-150 RAW)  : believe we're okay
+  • FT ADAPTER (checkpoint-150 CLEAN): believe we're okay
+--------------------------------------------------------------------------------
+
+[TRACK CHUNK CHANNELS 10]
+  • GROUND TRUTH REFERENCE   : Now I know that you don't care
+  • BASE MODEL OUT-OF-BOX    : Now I know that you're going to melt
+  • FT ADAPTER (checkpoint-150 RAW)  : now i know that you're going to melt
+  • FT ADAPTER (checkpoint-150 CLEAN): now i know that you're going to melt
+--------------------------------------------------------------------------------
